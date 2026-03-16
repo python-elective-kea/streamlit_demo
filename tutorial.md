@@ -1,4 +1,4 @@
-# Streamlit Tutorial: Getting Started with Interactive Web Apps
+# Streamlit Tutorial
 
 **Documentation:** [https://docs.streamlit.io/](https://docs.streamlit.io/)
 
