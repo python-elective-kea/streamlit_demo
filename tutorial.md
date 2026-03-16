@@ -1,9 +1,5 @@
 # Streamlit Tutorial: Getting Started with Interactive Web Apps
 
-## **Introduction**
-
-Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science. With just a few lines of code, you can turn data scripts into shareable web apps.
-
 **Documentation:** [https://docs.streamlit.io/](https://docs.streamlit.io/)
 
 ---
@@ -135,18 +131,9 @@ my_app/
     ├── page1.py
     └── page2.py
 ```
-
 ---
 
-## **6. Best Practices**
-
-- **Keep your app modular**: Break down complex logic into functions.
-- **Use session state**: For more advanced apps, use `st.session_state` to store data across reruns.
-- **Add visualizations**: Streamlit supports Matplotlib, Plotly, Altair, and more.
-
----
-
-## **7. Example: Complete App**
+## **6. Example: Complete App**
 
 ```python
 import streamlit as st
@@ -169,8 +156,3 @@ st.sidebar.button("About")
 
 ---
 
-## **8. Next Steps**
-
-- Explore [Streamlit's gallery](https://streamlit.io/gallery) for inspiration.
-- Learn about [advanced layouts](https://docs.streamlit.io/library/api-reference/layout) and [caching](https://docs.streamlit.io/library/advanced-features/caching).
-- Deploy your app using [Streamlit Community Cloud](https://streamlit.io/cloud).
