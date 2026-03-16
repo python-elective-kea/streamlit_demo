@@ -45,7 +45,43 @@ st.title("Hello World!")
 st.write("Welcome to my first Streamlit app.")
 ```
 
-Run the app:
+### **Markdown Support**
+
+Streamlit supports Markdown syntax for rich text formatting:
+
+```python
+st.markdown("""
+# Hello world
+Here are some paragraph text.
+
+## We are using markdown
+* Point 1
+* Point 2
+* Point 3
+""")
+```
+
+or just:
+
+```python
+"""
+# Hello world
+Here are some paragraph text.
+
+## We are using markdown
+* Point 1
+* Point 2
+* Point 3
+
+```
+
+
+
+
+
+
+
+### Run the app:
 
 ```bash
 streamlit run app.py
@@ -153,6 +189,4 @@ st.sidebar.title("Navigation")
 st.sidebar.button("Home")
 st.sidebar.button("About")
 ```
-
----
 
